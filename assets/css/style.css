@@ -6,6 +6,7 @@
 
 body{
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navi {
     display: flex;
@@ -45,9 +46,16 @@ a:hover {
 
 
 
-.art
+.art{
+    background-image: -webkit-linear-gradient(45deg, #252525 0%, #252525 20%, #f5f5f5 20%, #f5f5f5 40%, #00b7b7 40%, #00b7b7 60%, #b70000 60%, #b70000 80%, #fcd50e 80%);
+    height: 150px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px whitesmoke
+    
+}
 
-.container
 
 #contact ul {
     margin: 0%;
@@ -61,3 +69,4 @@ a:hover {
     display: inline;
     
 }
+
