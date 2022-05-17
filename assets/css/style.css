@@ -1,3 +1,50 @@
 * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
     background-color: aliceblue;
 }
+.navi {
+    display: flex;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #131f46e2;
+    color: #2eb9c6;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+}
+
+
+.navi div {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navi div ul {
+    list-style-type: none;
+}
+
+.navi div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #2d83a2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+
+
+.art
+
+.container
