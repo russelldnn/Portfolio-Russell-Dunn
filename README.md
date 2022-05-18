@@ -1,4 +1,4 @@
-# UTORFSFWeek1Challenge2
+# UTORFSFWeek1Challenge2 - Portfolio
 Challenge 2 of week 1 of university of torontos coding bootcamp - to create the beginnings of a portfolio to
 act as a place to showcase ones skillsets.
 We were asked to include several sections including:
