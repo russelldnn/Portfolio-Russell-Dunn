@@ -1,3 +1,4 @@
+/* universal base*/
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -59,32 +60,36 @@ a:hover {
     
     
 }
-
+/*styling for app flexbox*/
 .boxes{
     display: flex;
     justify-content: center;
-    flex: 1 1 300px;
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    
-}
-
-@media screen and (min-width:40em)  {
-    .boxes{
-        
-    }
-    
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;   
 }
 
 .boxes li{
     color: #00b7b7;
     background-color: #252525;
-    background-size: cover;
+    list-style-type: none;
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
+.box-t{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    flex-flow: wrap row;
+    margin: auto;
+}
+
+/*beginnings for full reflexive webpage*/
+@media screen and (min-width:40em) {}
 
 /*contact section alignment*/
 #contact ul {
